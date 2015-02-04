@@ -657,7 +657,8 @@ class InScaner:
 
 
 if __name__ == '__main__':
-    out=InScaner('ifeng.com')
+    domain = ''
+    out=InScaner(domain)
     out.HostInfoGet()
     out.NetworkInfoGet()
     out.PortScan()
